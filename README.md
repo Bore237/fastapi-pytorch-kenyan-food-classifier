@@ -67,6 +67,7 @@ PyTorch Model (Food Classifier)
 
 - Accuracy: ~80%
 
+
 ### Training Features
 
 - Data augmentation
@@ -142,8 +143,6 @@ PyTorch Model (Food Classifier)
 * Cloud deployment (AWS / GCP / Azure)
 * CI/CD pipeline
 * Improve dataset size for higher accuracy
-
----
 
 ## Author
 
