@@ -122,6 +122,7 @@ PyTorch Model (Food Classifier)
 ---
 
 ## Installation
+
 ```bash
     git clone https://github.com/Bore237/fastapi-pytorch-kenyan-food-classifier.git
     cd kenya-food-classification-ai
