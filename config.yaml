@@ -1,14 +1,19 @@
+classes:
+  0: bhaji
+  1: chapati
+  2: githeri
+  3: kachumbari
+  4: kukuchoma
+  5: mandazi
+  6: masalachips
+  7: matoke
+  8: mukimo
+  9: nyamachoma
+  10: pilau
+  11: sukumawiki
+  12: ugali
+
+# Version tableau
 class:
-  chapati
-  nyamachoma
-  bhaji
-  ugali
-  mandazi
-  kachumbari
-  matoke
-  githeri
-  masalachips
-  sukumawiki
-  pilau
-  mukimo
-  kukuchoma
+  - chapati
+  - nyamachoma
