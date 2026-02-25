@@ -1,25 +1,48 @@
 <!DOCTYPE html>
 <html lang="fr">
 <head>
-    <meta charset="UTF-8">
-    <link rel="stylesheet" href="styles.css" >
-    <script src="index.js" defer></script>
-    <title>Identification of kenya Food traditional </title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Kenya Food AI</title>
+<link rel="stylesheet" href="styles.css">
 </head>
+
 <body>
 
-<div class="card"> 
-    <h2>Identification des nourritures traditionnelle du kenya</h2> 
-    
-    <input type="file" id="fileInput" accept="image/*"> 
-    
-    <img id="preview"> 
-    
-    <button onclick="sendImage()">Envoyer</button> 
-    
-    <p id="result"></p> 
+<div class="app">
+
+    <h1>🍽 Traditional Recognition Kenya Food AI</h1>
+    <p class="subtitle">Deep Learning Food Recognition + GradCAM</p>
+
+    <div class="upload-section">
+        <label class="upload-btn">
+            📂 Upload Image
+            <input type="file" id="fileInput" hidden accept="image/*">
+        </label>
+        <button class="predict-btn" id="predictBtn">⚡ Predict</button>
+    </div>
+
+    <div id="fileName"></div>
+
+    <div class="results">
+        <div id="prediction-list"></div>
+    </div>
+
+    <div class="images">
+        <div class="image-box">
+            <h3>Original</h3>
+            <img id="preview">
+        </div>
+
+        <div class="image-box">
+            <h3>GradCAM</h3>
+            <img id="gradcam">
+        </div>
+    </div>
 
 </div>
+
+<script src="index.js"></script>
 
 </body>
 </html>
